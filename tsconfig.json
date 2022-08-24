@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "esModuleInterop": true,
+    "importsNotUsedAsValues": "error",
+    "incremental": true,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "outDir": "dist",
+    "resolveJsonModule": true,
+    "sourceMap": true,
+    "strict": true,
+    "target": "ES2020",
+    "experimentalDecorators": true,
+    "paths": {
+      "@env": ["src/env"],
+      "@core/*": ["src/core/*"],
+      "@cinema/*": ["src/modules/cinema/*"],
+      "@test": ["test/index.ts"],
+      "@test/*": ["test/*"]
+    }
+  }
+}

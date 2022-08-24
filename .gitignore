@@ -1,0 +1,13 @@
+.env*
+!.env.tpl
+shmig
+*.log
+*.iml
+.idea
+.DS_Store
+coverage/
+dist/
+junit.xml
+node_modules/
+/camunda-docker-compose.yml
+/Taskfile.yml
